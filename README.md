@@ -12,8 +12,8 @@ un tour complet, elle fera avancer d’un cran la roue située à sa gauche (si 
 opérations suivantes :
 
 * _init(l: List<Int>)_ qui initialise le compteur comme décrit ci-dessus ;
-* _courant: List<Int>_ qui retourne la liste de valeurs courante du compteur ;
-* _suivant_ qui incrémente le compteur. Si on a atteint le maximum, le compteur est bloqué sur la dernière
+* _courant(): List<Int>_ qui retourne la liste de valeurs courante du compteur ;
+* _suivant()_ qui incrémente le compteur. Si on a atteint le maximum, le compteur est bloqué sur la dernière
 valeur comptée ;
 * _suivantPossible(): Boolean_ qui dit s’il est encore possible d’incrémenter le compteur ou s’il a atteint la valeur
 maximum ;
